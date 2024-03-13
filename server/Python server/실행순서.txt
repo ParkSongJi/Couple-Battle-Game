@@ -1,0 +1,22 @@
+1. 먼저 fastapi, pymongo, uvicorn설치
+    pip install fastapi
+    pip install pymongo
+    pip install "uvicorn[standard]"
+    pip install dotenv
+    pip install motor
+2. server폴더에 있는 위치로 이동
+    터미널 명령어: cd server폴더 path (일단은 Python server)
+3. 가상황경 실행
+    터미널 명령어:
+        python -m venv 가상환경이름(가상환경이름 아무거나 써도 됨)
+        가상환경이름\Scripts\activate
+4.fastapi 실행
+    uvicorn main:app --reload (여기서 main는 파일 이름)
+
+중간에 :
+CategoryInfo: 보안 오류: (:) [], PSSecurityException
+FullyQualifiedErrorId: UnauthirizedAccess
+
+Set-ExecutionPolicy -Scope Process -ExecutionPolicy RemoteSigned
+
+

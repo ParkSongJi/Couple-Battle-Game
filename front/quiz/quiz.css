@@ -1,0 +1,62 @@
+header { background-color: #f7436d;}
+
+.title , .content, .text { font-family: 'SEBANG_Gothic';}
+
+.title {font-size: 2rem; padding-top: 2.5rem;}
+
+p {font-family: 'SEBANG_Gothic'; margin: 1rem auto; font-size: 1.2rem;}
+
+h4 { 
+    font-family:'GapyeongWave';
+    font-size: 2rem;
+    color: white;
+    padding: 1.3rem;
+    margin: 0 auto;
+}
+footer { 
+    background-color: #f7436d;
+    text-align: center;
+}
+
+.select ul{
+    display: flex; 
+    justify-content: space-evenly;
+    list-style-type: none;
+    padding: 0;
+}
+
+.select ul li {
+    width: 50%;
+    padding: 3rem 0;
+}
+.select ul li:first-child {
+    border-right: 0.3rem solid #f9d4df; 
+    height: 8rem;}
+
+.select .text {
+    text-align: center;
+    margin-bottom: 2rem;
+}
+.select .img_area {
+    width: 100%;
+    padding: 0 5.5rem;
+    box-sizing: border-box;
+}
+.select .img_area img {width: 100%;}
+
+header .xi-home-o {
+    margin: 1rem;
+    font-size: 3.5rem;
+    color: white;
+
+}
+
+.content {
+    padding: 4rem;
+    line-height: 2rem;
+    background-color: #f9d4df;
+    border-radius: 2rem;
+    margin: 2rem auto 0;
+    width: 56%;
+    font-size: 1.1rem;
+}

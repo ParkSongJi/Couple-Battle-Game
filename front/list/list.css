@@ -1,0 +1,42 @@
+header h2 { 
+    font-family:'GapyeongWave';
+    font-size: 2rem;
+    color: white;
+    padding: 1.3rem;
+    margin: 0 12rem 0 0;
+}
+
+p {
+    font-family: 'SEBANG_Gothic' ;
+    font-size: 1rem;
+    opacity: 50%;
+    line-height: 1.5rem;
+    margin: 0;
+}
+h3 {
+    font-family: 'SEBANG_Gothic' ;
+    font-size: 1.4rem;
+    opacity: 100%;
+    margin-bottom: 0.7rem;
+}
+.contain {
+    width: 100%;
+    height: calc(100% - 6rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: left; 
+    overflow: auto;
+}
+
+.qlist {
+    padding: 1.7rem 1rem;
+    border-bottom: 0.07rem solid #be3a59;
+    margin: 0 1rem;
+}
+
+.gapy {
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    z-index: 1;
+}

@@ -1,0 +1,92 @@
+/* 반응형 */
+@media screen and (min-width:768px) {
+    html, body{font-size: 120%;}
+}
+@media screen and (max-width:479px) {
+    html, body{font-size: 75%;}
+}
+@media screen and (max-width:394px) {
+    html, body{font-size: 70%;}
+}
+@media screen and (max-width:379px) {
+    html, body{font-size: 65%;}
+}
+@media screen and (max-width:360px) {
+    html, body{font-size: 60%;}
+}
+@media screen and (max-width:344px) {
+    html, body{font-size: 58%;}
+}
+@media screen and (max-width:330px) {
+    html, body{font-size: 56%;}
+}
+@media screen and (max-width:319px) {
+    html, body{font-size: 55%;}
+}
+
+@media screen and (max-width:282px) {
+    html, body{font-size: 52%;}
+}
+@media screen and (max-width:276px) {
+    html, body{font-size: 50%;}
+}
+@media screen and (max-width:259px) {
+    html, body{font-size: 45%;}
+}
+@media screen and (max-width:232px) {
+    html, body{font-size: 40%;}
+}
+
+
+/* 가평물결체 */
+@font-face {
+    font-family: 'GapyeongWave';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2312-1@1.1/GapyeongWave.woff2') format('woff2');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+/* 세방고딕체 */
+@font-face {
+    font-family: 'SEBANG_Gothic';
+    src: url('https://cdn.jsdelivr.net/gh/projectnoonnu/noonfonts_2104@1.0/SEBANG_Gothic_Regular.woff') format('woff');
+    font-weight: 400;
+    font-style: normal;
+}
+
+.gapy { font-family: 'GapyeongWave'; font-size: 3.5rem;}
+.sebang { font-family: 'SEBANG_Gothic';}
+
+body {width: 100%; margin: 0 auto ; }
+
+.main { height: 100vh;}
+
+header {
+    width: 100%; 
+    display: flex;
+    height: 6rem;
+    background-color: #f7436d;
+}
+
+.container {
+    width: 100%;
+    height: calc(100% - 12rem);
+    display: flex;
+    flex-direction: column;
+    justify-content: center; 
+    align-items: center; 
+    text-align: center;
+}
+
+footer {
+    height: 6rem;
+    width: 100%;
+}
+
+.xi-arrow-left {
+    margin: 1rem;
+    font-size: 3.5rem;
+    color: white;
+    font-weight: bold;
+}

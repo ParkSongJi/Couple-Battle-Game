@@ -1,0 +1,67 @@
+.gapy { 
+    margin: 2rem auto 0;
+    font-size: 2.5rem;
+    color: white;
+    text-align: center;
+    width: calc(100% - 13rem);
+    background-color: #f7436d;
+    border-radius: 2rem;
+    padding: 1rem;
+
+
+}
+
+header {justify-content: right; background-color: white;}
+.index_button {
+    margin-top: 10rem;
+    width: 100%;
+
+}
+
+/*문의하기 위치조정*/
+.sebang {padding-left: 2rem; padding-top: 2rem;} 
+
+h4 {
+    font-family: 'GapyeongWave';
+    color: #f7436d;
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 4rem;
+}
+
+.main {   
+    flex-direction:column; 
+    justify-content: flex-start; 
+    display: flex; 
+    align-items: center; 
+    position: relative;}
+
+
+.info {
+    margin: 0 auto; 
+    width: 80%;
+    display: flex; 
+    padding: 3rem 3rem 6rem 3rem;
+    border-radius: 2rem; 
+    margin-top: 23%;
+    position: absolute;
+    background-color: white;
+    border: 0.1rem solid #f7436d;
+}
+.infoicon {width: 60%; padding-top: 1.5rem;}
+.logo {width: 35%; margin-bottom: 6rem;}
+
+.info .xi-close {display: flex; justify-content: right;}
+
+.xi-close {
+    margin: 0 auto; 
+    font-weight: bold;
+    font-size: 3rem;
+    color: #f7436d
+  }
+
+  .info p { font-family: 'SEBANG_Gothic';}
+
+  .caution {color: #f7436d;}
+
+  .sebang {font-size: 1.2rem;}

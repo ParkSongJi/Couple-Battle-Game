@@ -1,0 +1,118 @@
+* {margin: 0;}
+
+/* 헤더 */
+.gapy {
+    display: flex;
+    justify-content: space-between;
+    top: 0;
+    z-index: 1;
+    background-color: #F8436C;
+}
+
+.Qlist {
+    width: 40%;
+    height: 3.5rem;
+    line-height: 3.5rem;
+    background-color: white;
+    border-radius: 1rem;
+    margin: 1.2rem;
+    font-size: 1.5rem;
+    text-align: center;
+    color: #f7436d
+}
+
+.container {
+    position: relative; 
+    display: block;
+}
+
+.chatting {
+    padding: 1rem 1.5rem 0 1rem;
+    width: 93%;
+    height: 98%;
+    overflow: auto;
+    font-family: 'SEBANG_Gothic';
+}
+
+.chatbot , .user{display: flex;}
+
+.chatbot {padding: 0.4rem 0 0.8rem 0}
+.user {padding: 0.3rem 0rem;}
+
+.profile {
+    width: 5rem;
+    height: 5rem;
+    margin-top: 0.5rem;
+    margin-right: 0.5rem;
+}
+
+.imgdiv {
+    border-radius: 10rem;
+    padding: 0.2rem;
+}
+
+.name {
+    margin: 0.5rem 0;
+    text-align: left;
+    font-size: 1.2rem;
+}
+
+/* .test {
+    width: 0;
+} */
+
+.contentC {
+    padding: 0.8rem 1rem;
+    background-color: rgb(215, 238, 248);
+    border-radius: 1rem;
+    max-width: 20rem;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+.user {
+    justify-content: flex-end;
+}
+
+.contentU {
+    padding: 0.7rem 1rem;
+    border-radius: 1rem;
+    background-color: #f9d4df;
+    max-width: 20rem;
+    font-size: 1.2rem;
+    text-align: left;
+}
+
+
+.footer {
+    background-color: white;
+    width: 100%;
+    /* position: fixed; */
+    bottom: 0;
+    padding: 1rem 1.5rem;
+    /* padding-top: 2rem; */
+    display: flex;
+    justify-content: space-between;
+}
+
+.inputbox {
+    width: 74%;
+    height: 1.6rem;
+    border: #f7436d 0.3rem solid;
+    border-radius: 1rem;
+    padding: 0.5rem 1rem;
+    padding-left: 1rem;
+    font-size: 1.3rem;
+}
+
+.xi-send {
+    margin-right: 1.2rem;
+    width: 15%;
+    height: 3rem;
+    color: #f7436d;
+    font-size: 3rem;
+}
+
+.imgdiv img {width: 70%;}
+
+.contentC , .contentU { line-height: 1.6rem;}
